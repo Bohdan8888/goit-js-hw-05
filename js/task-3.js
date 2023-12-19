@@ -1,7 +1,8 @@
 const sortByDescendingFriendCount = (users) => {
   return users.sort((a, b) => b.friends.length - a.friends.length);
 };
-const user = [
+
+const allUser = [
   {
     name: "Moore Hensley",
     friends: ["Sharron Pace"],
